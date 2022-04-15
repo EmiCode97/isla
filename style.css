@@ -26,6 +26,11 @@
  .padded         { padding: 5%; }
  .padded-sm      { padding: 1rem; }
  .padded-lg      { padding: 10%; }
+
+ .margin-t-b { 
+      margin-top: 3%;
+      margin-bottom: 3%;
+}
  
  .bg-dark {
     background-color: #192B37;
@@ -64,9 +69,9 @@
     border-bottom: 1px solid;
  }
  
- a:hover { color: #FFBE00;  }
+ a:hover { color: #ffffff;  }
  
- .featured-text { color: #FFBE00;}
+ .featured-text { color: #e0fbfc;}
  .white-text { color: white; }
  
  .small-text { font-size: 1.5rem; }
@@ -88,6 +93,10 @@
     color: rgb(120,120,125); 
   }
  
+  .color {
+     background-color: #84dce0;
+     margin-bottom: 5%;
+  }
  
  
  .font-weight-light      { font-weight: 200; }
@@ -102,9 +111,10 @@
  /* Header & Footer Styles */
  
  header {
-    background-image: url('/images/the-sleep-co-bed.jpg');
+    background-image: url('/images/palmtree.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 70%;
+    
  
  } 
  
@@ -113,19 +123,25 @@
     line-height: 1;
  }
  
- footer a { border: none;}
+ footer a { border: none; }
  
  
  /* Background-images  */
  
- .bg-bed    { background-image: url('/images/the-sleep-co-black.jpg');  }  
- .bg-pillow { 
-    background-image: url('/images/the-sleep-co-pillow.jpg'); 
+ .bg-surf   {
+     background-image: url('/images/surf.jpg');  
+     background-position:50% 90% ;
+     margin-top: 3%;
+   }  
+
+ .bg-sand { 
+    background-image: url('/images/sand.jpg'); 
     background-position: 50% 90%;
+    margin-bottom: 3%; 
  }
  
- .bg-frangipani {
-    background-image: url('/images/the-sleep-co-frangipani.jpg');
+ .bg-beach {
+    background-image: url('/images/beach.jpg');
     background-position: 50% 10%;
  }
  
@@ -137,3 +153,7 @@
     font-size: 3rem;
  }
  
+
+ .footer { 
+    background-color: #f3dfc1;
+ }
