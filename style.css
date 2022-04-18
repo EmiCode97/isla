@@ -191,13 +191,13 @@ a:hover {
  
  .bg-ibisco   {
      background-image: url('/images/ibisco.jpg');  
-     background-position: 50% 40% ;
+     background-position: 50% 50% ;
      margin-top: 3%;
    }  
 
  .bg-sand { 
     background-image: url('/images/sand.jpg'); 
-    background-position: 50% 30%;
+    background-position: 50% 40%;
     margin-bottom: 3%; 
  }
  
@@ -212,10 +212,9 @@ a:hover {
 }
 
 
-
 .bg-image {
   background-size: cover;
-  min-height: 10rem;
+  min-height: 27rem;
 }
 
 
