@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <!-- This is the head of our html where we add external resources and metadata-->
 <head> 
   <title> Isla </title>
@@ -15,42 +16,70 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet" />
 
+<!----------------------- italic ------------------> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+<!----------------------- roboto  ------------------> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Reenie+Beanie&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
 <!----------------------- This is our custom stylesheet ------------------> 
 <link href="/style.css" rel="stylesheet" />
 
 </head>
 
-<!------------------------ This is the body, this is where all of our page content goes ----->
-<body>
 
-    <nav>
-        <a href="/index.html/"> Home </a>
-        <a href="/about.html/"> About </a>
-        <a href="/contact.html/"> Contact </a>
-    </nav>
+
+
+<!------------------------ This is the body, this is where all of our page content goes ----->
+<body class="footer">
+
 
 
     <!--------------------------- Header Banner --------------------------------------------->
-<header class="padded grid text-center tall-100">
+    <header class="padded grid text-center tall-100">
+        <div class="header-nav col-12 grid"> 
+    <div class="col-4" >
+         <a href="/index.html" class="logo featured-text text-left margin-t"> 
+             <h2> Isla </h2> 
+         </a>
+        
+    </div>
+
+        <nav class="col-8 right"> 
+            <a href="/index.html" >  Home </a>
+            <a href="/about.html" > About </a>
+            <a href="/shop.html" > Shop </a>
+            <a href="/sustainability.html"> Sustainability </a>
+            <a href="/contact.html" > Contact </a>
+    </nav>
+</div>
+   
+
     <div class="col-12-middle"> 
         <h3 class="font-weight-light editable">
-            <span class="featured-text"> Welcome to </span> <br> ISLA <br> </h3>
-       
+            <span class="x-small-text uppercase">  Welcome to </span> <span class="featured-text white-text"> <br> ISLA <br> </span> </h3>
     </div>
 </header>
 
 <!------------------------------ Gallery / about Section ------------------------------------->
 <section class="grid">
      <div class="padded col-6">
-          <h2 class="editable">
-              the <span class="featured-text">  STORY </span>  :)   </h2>
+          <h2 class="editable font-weight-light">
+            <span class="x-small-text">  the </span> <span class="featured-text"">   STORY </span> </h2>
           <p class="editable">
               Lorem ipsum dolor sit amet, consectetur elit. Donec accumsan interdum leo in interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi nisi harum vitae atque laborum accusantium esse nostrum nulla, veritatis incidunt ex quod consequuntur magnam maxime cum consequatur quis sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam, libero molestiae esse quo error ipsa itaque. Illo sit nostrum quod doloremque id eos dicta, quo, esse obcaecati odit corrupti.
           </p> 
-          <a href="#"> let's get Isla </a> 
+          <a href="#" class="featured-text small-text-2"> let's get Isla </a> 
 </div>
 
-<div class="bg-image bg-surf col-6 tall-70"> </div>
+<div class="bg-image bg-wowisla col-6 tall-70"> </div>
 
     <!---------------  background image frangipani ----------->
 
@@ -58,52 +87,49 @@
 
     <!--------------- background image coco --------------->
 <div class="padded-col-6 padded">
-    <h2> the <span class="featured-text"> BLOG </span>  </h2>
+    <h2 class="editable font-weight-light"> <span class="x-small-text"> the </span> <span class="featured-text"> BLOG </span>  </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores quisquam at atque architecto? Corporis optio, molestias nobis voluptas nihil ea, sunt distinctio delectus perspiciatis atque vitae quidem ratione ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae in repellat totam quia cupiditate esse similique! Sit maxime incidunt deserunt dolore doloribus, sequi dolorem, debitis accusantium minus quaerat optio.  </p>
-    <a href="#"> to the blog </a>
+    <a href="#" class="featured-text small-text-2" > to the blog </a>
 </div>
 </section>
 
+<!------------------------------- shop banner -------------------------------------->
+<section class="padded text-center bg-yellow tall-70 grid bg-image margin-b">
+    <div class="col-12-middle"> 
+        <h3 class="big-text featured-text">
+              <span class="white-text font-weight-light small-text" >  SHOP  </span> 
+       </h3>   
+       <a href="#" class="white-text a-border"> <br> GO TO <br> </a>  
+    </div>
+</section>
 
-<!-------------------------------  Feature icon grid ------------------------------------------->
+<!-------------------------------  gallery grid ------------------------------------------->
 
-<section class="padded grid bg-dark color">
+<section class="padded grid bg-dark color slider">
 <div class="padded-sm col-12 text-center"> 
 <h2 class="text-center"> 
-    <span class="featured-text"> Gallery </span>  </h2>    
+    <span class="featured-text font-weight-light white-text uppercase small-text"> Gallery </span>  </h2>    
 </div>
 
-<div class="padded-sm col-3 editable"> 
-    <i class="fas fa-cloud text-center"></i>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa. </p> 
-</div>
-
-<div class="padded-sm col-3 editable"> 
-    <i class="fas fa-cloud"> </i>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa. 
-
- </p>    
-</div>
-
-<div class="padded-sm col-3 editable"> 
-    <i class="fas fa-cloud"></i>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa.  </p>  
-</div>
-
-<div class="padded-sm col-3 editable"> 
-    <i class="fas fa-cloud"> </i>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa.  </p>  
-</div>
+<section> 
+      <img src="https://source.unsplash.com/9u-TGFaFPwI">
+      <img src="https://source.unsplash.com/obMdrL5pFWI">
+      <img src="https://source.unsplash.com/guNIjIuUcgY">
+      <img src="https://source.unsplash.com/ZZXJ6o2xLs8">
+      <img src="https://source.unsplash.com/e8x9O3dehuk">
+   
+   <img src="https://source.unsplash.com/JLegavJdCWU">
+     
+   </section>
 </section>
 
-<!------------------------------- imege banner -------------------------------------->
+<!------------------------------- sustainability banner -------------------------------------->
 <section class="padded text-center bg-beach tall-70 grid bg-image">
     <div class="col-12-middle"> 
-        <h3 class="big-text"> 
-            <span class="small-text font-weight-normal"> SUSTAINABILITY and </span>
-              <span class="white-text font-weight-light"> <br> LIFE <br> </span> 
+        <h3 class="big-text featured-text">
+              <span class="white-text font-weight-light small-text" >  SUSTAINABILITY  </span> 
        </h3>   
-       <a href="#"> GO TO </a>  
+       <a href="#" class="white-text a-border"> <br> GO TO <br> </a>  
     </div>
 </section>
 
@@ -125,21 +151,39 @@
 
 <!-------------------------------------- Footer  ----------------------------------->
 
-<footer class="padded grid-spaceBetween bg-dark margin-t-b footer"> 
-<div class="col-4 bottom"> 
-    <h2> Let's <br /> <span class="featured-text"> connect </span> </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa. Etiam nec enim at odio consectetur gravida. Donec accumsan interdum leo in interdum. 
-    </p> 
-</div>
+<footer class="grid margin-t-b">
+    <!-- column -->
+    <div class="col-5_sm-12 padded">
+      <h2 class="logo featured-text"> Isla </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="col-1 sm-hidden"></div>
+    <!-- column -->
+    <div class="col-6_sm-12-middle padded right">
+      <nav class="inline">
+        <a href="#"> Home </a>|
+        <a href="#"> Story </a>|
+        <a href="#"> Shop </a>|
+        <a href="#"> Sustainability </a>|
+        <a href="#"> Contact </a>
+      </nav>
+      <nav class="inline socials">
+        <a href="#">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </nav>
+    </div>
 
-<div class="col-5 bottom"> 
-    <p> <strong>   Email:      </strong>  <a href="mailto:#"> hello@thesleep.co </a> </p>
-    <p>  <strong>   Call:      </strong>   <a href="tel:#"> 374945908463 </a> </p>
-    <p>  <strong>   Agency:    </strong> 55 Main St, Milan </p>
-    <p>  <strong>   Instagram: </strong>   <a href="https://www.instagram.com/thesleepco"> @thesleep.co </a> </p>
-</div>
-
-</footer>
-
+    <div class="col-12 center"> 
+        <p class="subtle"> Copyright 2022 </p>
+   </div>
+  </footer>
+  
 </body>
 </html>

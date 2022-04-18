@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<!-- This is the head of our html where we add external resources and metadata-->
+<head> 
+  <title> Isla </title>
+
+<!--------------------- This is our fontawesome icons ------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--------------------- Gridlex for our flexbox grids ------------------->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+
+<!---------------------- Google font - catamaran 200,400,500,800 --------->
+<link rel="preconnect" href="https://fonts.googleapis.com" /> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet" />
+
+<!----------------------- This is our custom stylesheet ------------------> 
+<link href="/style.css" rel="stylesheet" />
+
+</head>
+
+
+
+
+<!------------------------ This is the body, this is where all of our page content goes ----->
+<body>
+
+      <!--------------------------- Header Banner --------------------------------------------->
+      <header class="padded grid text-center tall-100">
+        <div class="header-nav grid col-12"> 
+    <div class="col-2" >
+         <a href="/index.html" class="logo"> 
+             <h2> Isla </h2> 
+         </a>
+        
+    </div>
+        <nav class="col-10 right"> 
+            <a href="/index.html"> Home </a>
+            <a href="/about.html"> About </a>
+            <a href="/shop.html"> Shop </a>
+            <a href="/sustainability.html"> Sustainability </a>
+            <a href="/contact.html"> Contact </a>
+  </nav>
+</div>
+
+<section>
+  
+  <form class="form-style-two"   action="https://formspree.io/f/meqvrneg"
+    method="POST"> 
+    <label for="_name"> Your Name </label>
+    <input type="text" name="_name" id="_name" placeholder="Name" />
+    
+    <label for="_replyto"> Your Email </label>
+    <input type="email" name="_replyto" id="_replyto" placeholder="Email" />
+    
+    <label for="_message"> Tell me everything about you... </label>
+    <textarea name="_message" id="_message" placeholder="Hey I want to learn to code..."></textarea> 
+    
+    <button type="submit" > SUBMIT </button> 
+    
+    </form>
+    
+  </section> 
+</header>
+
+<!--------------------------- Footer ------------------------------------>
+    <section class="grid padded">
+        <div class="col-6_sm-12 padded">
+          <h2> Get In Touch </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p> <strong> Email: </strong> hello@company.com </p>
+          <p> <strong> Phone: </strong> 0412 555 555 </p>
+          <p> <strong> Facebook: </strong> fb.com/companyname </p>
+        </div>
+        <div class="col-6_sm-12-middle padded">
+          <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+            <div class="col-6_sm-12">
+              <input type="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="col-6_sm-12">
+              <input type="email" name="_replyto" placeholder="Your Email">
+            </div>
+            <div class="col-12">
+              <textarea placeholder="Your Message"></textarea>
+              <input type="submit" value="Send" class="button">
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+
+
+
+
+
+</body>
+</html>
