@@ -76,7 +76,7 @@ p:last-child { margin-bottom: 0;}
 
 a {
       text-decoration: none;
-      color: grey;
+      color: #bfaf9c;
       text-transform: uppercase;
       letter-spacing: 3px;
 
@@ -95,12 +95,13 @@ a:hover {
     }
  
 .featured-text { 
-    color: #939878;
+    color: #a1af8b ;   
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
   }
 
 .white-text { color: white; }
+
  
 .uppercase { 
   text-transform: uppercase;
@@ -168,9 +169,9 @@ a:hover {
  /* Header & Footer Styles */
  
  header {
-    background-image: url('/images/palmtree.jpg');
+    background-image: url('/images/wave.jpg');
     background-size: cover;
-    background-position: 50% 70%;
+    background-position: 50% 30%;
  } 
  
  header h3 {
@@ -189,9 +190,9 @@ a:hover {
  
  /* Background-images  */
  
- .bg-ibisco   {
-     background-image: url('/images/ibisco.jpg');  
-     background-position: 50% 50% ;
+ .bg-palmtree   {
+     background-image: url('/images/palmtree.jpg');  
+     background-position: 50% 80% ;
      margin-top: 3%;
    }  
 
@@ -214,7 +215,7 @@ a:hover {
 
 .bg-image {
   background-size: cover;
-  min-height: 27rem;
+  min-height: 25rem;
 }
 
 
