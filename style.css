@@ -76,7 +76,7 @@ p:last-child { margin-bottom: 0;}
 
 a {
       text-decoration: none;
-      color: #bfaf9c;
+      color: #926d59;
       text-transform: uppercase;
       letter-spacing: 3px;
 
@@ -95,12 +95,13 @@ a:hover {
     }
  
 .featured-text { 
-    color: #a1af8b ;   
+    color: #fbba72 ;   
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
   }
 
 .white-text { color: white; }
+.green-text { color: #352208}
 
  
 .uppercase { 
@@ -140,7 +141,7 @@ a:hover {
   }
  
   .color {
-     background-color: #80ded9;
+     background-color: #ffd791;
      margin-bottom: 2.5%;
   }
  
@@ -169,7 +170,7 @@ a:hover {
  /* Header & Footer Styles */
  
  header {
-    background-image: url('/images/wave.jpg');
+    background-image: url('/images/beach.jpg');
     background-size: cover;
     background-position: 50% 30%;
  } 
@@ -203,12 +204,12 @@ a:hover {
  }
  
  .bg-beach {
-    background-image: url('/images/beach.jpg');
+    background-image: url('/images/wowisla.jpg');
     background-position: 50% 10%;
  }
  
 .bg-yellow { 
-    background-color:#e1bb80 ;
+    background-color:#8edce6 ;
     background-position: 50% 10%;
 }
 
@@ -226,7 +227,7 @@ img {
 }
 
 .slider { 
-  padding: 1rem;
+  padding: 0.1rem;
   overflow-x: auto;
   white-space: nowrap;  
 }
