@@ -3,7 +3,11 @@
 
 <!-- This is the head of our html where we add external resources and metadata-->
 <head> 
-  <title> Isla </title>
+
+  <!----------------------- viewport meta for responsive  ------------------> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<title> Isla </title>
 
 <!--------------------- This is our fontawesome icons ------------------->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,10 +35,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Reenie+Beanie&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 
-<!----------------------- media query responsive website ------------------> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 <!----------------------- This is our custom stylesheet ------------------> 
 <link href="/style.css" rel="stylesheet" />
 
@@ -49,7 +49,7 @@
 
 
     <!--------------------------- Header Banner --------------------------------------------->
-    <header class="padded grid text-center tall-100">
+    <header class="padded grid text-center tall-100 header-contact">
         <div class="header-nav col-12 grid"> 
     <div class="col-4" >
          <a href="/index.html" class="logo featured-text text-left margin-t lowercase"> 
@@ -68,10 +68,9 @@
 </div>
    
 
-<section class="centered">
+<section>
   
-  <form class="form-style-two"   action="https://formspree.io/f/meqvrneg"
-    method="POST"> 
+  <form class="form-style-two"   action="https://formspree.io/f/meqvrneg" method="POST"> 
     <label for="_name"> </label>
     <input type="text" name="_name" id="_name" placeholder="FULL NAME" />
     

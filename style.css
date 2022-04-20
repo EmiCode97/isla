@@ -38,16 +38,8 @@
     color: white;
  }
  
- .tall-50  { min-height: 50vh; }
- .tall-60  { min-height: 60vh; }
- .tall-70  { min-height: 70vh; }
- .tall-80  { min-height: 80vh; }
- .tall-90  { min-height: 90vh; }
- .tall-100 { min-height: 100vh; }
  
  
-
-
 
 
 
@@ -75,16 +67,21 @@ p:last-child { margin-bottom: 0;}
     border-bottom: 1px solid; */
 
 a {
-      text-decoration: none;
-      color: #926d59;
-      text-transform: uppercase;
-      letter-spacing: 3px;
+  color: #bfcbc2;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 
-      /* top+bottom then left to right */
-      padding: 1rem 0.2rem;
-      transition: all 0.2s;
-    }
+  /* top+bottom then left to right */
+  padding: 1rem 0.2rem;
+  transition: all 0.2s;
+} 
+
+
+      
     
+
+
 a:hover {
       color: #c8c2ae;
     }
@@ -94,13 +91,25 @@ a:hover {
     color: inherit;
     }
  
+/* style text */
+
+
 .featured-text { 
     color: #fbba72 ;   
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
   }
 
+.italic  { 
+  color: #f1f1f1 ;   
+  font-family: 'Homemade Apple', cursive;
+  font-family: 'Reenie Beanie', cursive;
+  padding-top: 3.5%;
+  }
+  
+
 .white-text { color: white; }
+
 .green-text { color: #352208}
 
  
@@ -111,13 +120,13 @@ a:hover {
 
 .lowercase {text-transform: lowercase;}
 
- .medium-text { 
+.medium-text { 
     font-size: 2.2rem;
     line-height: 1.1;
  }
- .big-text { font-size: 4.5rem;  }
+.big-text { font-size: 4.5rem;  }
 
- .small-text { 
+.small-text { 
    font-size: 1.7rem;
    text-transform: uppercase;
 }
@@ -145,13 +154,21 @@ a:hover {
      margin-bottom: 2.5%;
   }
  
-  .footer { 
-    background-color: #faf8f8;
- }
+
+.b-color-s { background-color: #ffd791; }
+
+.footer {  background-color: #faf8f8; }
+
  
  .font-weight-light      { font-weight: 200; }
  .font-weight-normal     { font-weight: normal; }
  .font-weight-extra-bold { font-weight: 800; }
+
+ .font-size-xs { font-size: x-small;}
+ .font-size-s { font-size: small;}
+ .font-size-m { font-size: medium;}
+ .font-size-l { font-size: large;}
+ .font-size-xl { font-size: x-large;}
  
  .text-left   { text-align: left; }
  .text-center { text-align: center; }
@@ -169,11 +186,6 @@ a:hover {
 
  /* Header & Footer Styles */
  
- header {
-    background-image: url('/images/beach.jpg');
-    background-size: cover;
-    background-position: 50% 30%;
- } 
  
  header h3 {
     font-size: 5.5rem;
@@ -208,11 +220,20 @@ a:hover {
     background-position: 50% 10%;
  }
  
-.bg-yellow { 
+.bg-blue { 
     background-color:#8edce6 ;
     background-position: 50% 10%;
 }
 
+.bg-yellow {
+background-color:#ffd791;
+background-position: 50% 10%;
+}
+
+.bg-surf {   
+  background-image: url('/images/surf.jpg');
+  background-position: 50% 10%;
+ }
 
 .bg-image {
   background-size: cover;
@@ -237,7 +258,75 @@ img {
 }
 
 
+.header {
+  background-image: url('/images/shadow.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  min-height: 80vh;
+} 
 
+.header-about {
+background-image: url('/images/wowisla.jpg');
+background-size: cover;
+background-position: 50% 30%;
+min-height: 80vh;
+
+}      
+
+.header-shop {
+  background-image: url('/images/prints.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  min-height: 80vh;
+  }   
+
+.header-sustainability {
+  background-image: url('/images/wowisla.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  min-height: 80vh;
+  }   
+
+.sustainability-1 {
+    background-image: url('/images/wowsea.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+    min-height: 80vh;
+    }   
+
+.sustainability-2 {
+      background-image: url('/images/seapalm.jpg');
+      background-size: cover;
+      background-position: 50% 30%;
+      min-height: 80vh;
+      }   
+
+.sustainability-3 {
+        background-image: url('/images/wave.jpg');
+        background-size: cover;
+        background-position: 50% 30%;
+        min-height: 80vh;
+        }   
+
+.header-contact {
+      background-image: url('/images/wave.jpg');
+      background-size: cover;
+      background-position: 50% 30%;
+      min-height: 80vh;
+      }   
+      
+.tall-10  {  min-height: 10vh;  }
+.tall-15  {  min-height: 15vh;  }
+.tall-18  {  min-height: 18vh;  }
+.tall-20  {  min-height: 20vh;  }
+.tall-30  {  min-height: 30vh;  }     
+.tall-40  {  min-height: 40vh;  }
+.tall-50  {  min-height: 50vh;  }
+.tall-60  {  min-height: 60vh;  }
+.tall-70  {  min-height: 70vh;  }
+.tall-80  {  min-height: 80vh;  }
+.tall-90  {  min-height: 90vh;  }
+.tall-100 {  min-height: 100vh; }
 
 
 
@@ -255,7 +344,49 @@ img {
 
 
  /* hamburger menu */ 
+ .dropbtn {
+  background-color: #faf8f8;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
 
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn { background-color: #c8c2ae; }
+
+
+
+
+/* 
 .hamburger-button {
   cursor: pointer;
   padding: 0 0.5rem;
@@ -294,20 +425,19 @@ img {
   font-weight: normal;
   font-size: 1.3rem;
 }
-
+*/
 
 /* banner sustainability  */ 
 .banner,
 .banner-with-header {
-  background-image: url('/images/wowisla.jpg');
   background-size: cover;
   background-position: center;
   min-height: 80vh;
 }
+
 .fixed {
   background-attachment: fixed;
 }
-
 
 
 
@@ -323,7 +453,6 @@ form textarea {
   font-family: inherit;
   font-size: 0.8rem; 
   font-weight: bold;
-  
 }
 
 form input:focus,
@@ -353,7 +482,7 @@ form button {
   margin: 0.5rem 0;
 }
 
-.form-hov { }
+
 
 .form-style-two input,
 .form-style-two textarea {
@@ -383,10 +512,7 @@ form textarea:focus {
 
 .button:hover { background-color: #c8c2ae ;}
 
-.centered { 
-  
 
-}
 
 
  /* copyright */ 
