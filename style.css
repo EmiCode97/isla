@@ -67,7 +67,7 @@ p:last-child { margin-bottom: 0;}
     border-bottom: 1px solid; */
 
 a {
-  color: #bfcbc2;
+  color: #8b786d;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -77,9 +77,6 @@ a {
   transition: all 0.2s;
 } 
 
-
-      
-    
 
 
 a:hover {
@@ -91,6 +88,10 @@ a:hover {
     color: inherit;
     }
  
+
+
+
+    
 /* style text */
 
 
