@@ -96,10 +96,18 @@ a:hover {
 
 
 .featured-text { 
-    color: #fbba72 ;   
+    color: #fbba72;  
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
   }
+
+.featured-text-3 { 
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: light;
+  color: #f2e5d7;
+  font-size: medium;
+}
 
 .italic  { 
   color: #f1f1f1 ;   
@@ -332,6 +340,7 @@ min-height: 80vh;
   border:1px solid #EEE;
   padding:2%;
 }
+
 .placeholder {
   width: 48%;
   margin: 1%;
@@ -348,7 +357,7 @@ min-height: 80vh;
 
 .gallery-images {
   width: 48%;
-  margin: 1%;
+  margin: 1.6%;
   float: left;
 }
 
@@ -359,14 +368,6 @@ min-height: 80vh;
   margin: 1%;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -400,7 +401,7 @@ min-height: 80vh;
 
 
 
- /* hamburger menu */ 
+ /* hamburger menu 
  .dropbtn {
   background-color: #faf8f8;
   color: white;
@@ -441,7 +442,7 @@ min-height: 80vh;
 .dropdown:hover .dropbtn { background-color: #c8c2ae; }
 
 
-
+*/ 
 
 /* 
 .hamburger-button {
