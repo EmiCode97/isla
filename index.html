@@ -19,6 +19,9 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
 
+
+
+
 <!---------------------- Google font - catamaran 200,400,500,800 --------->
 <link rel="preconnect" href="https://fonts.googleapis.com" /> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
@@ -46,7 +49,14 @@
 
 
 <!----------------------- This is our custom stylesheet ------------------> 
-<link href="/style.css" rel="stylesheet" />
+ <link href="/style.css" rel="stylesheet" />
+
+
+
+<!---------------------------------- jQuery ------------------------------>
+
+ <script sec="/main.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 
@@ -58,24 +68,26 @@
 
    
 
-    <!--------------------------- Header Banner --------------------------------------------->
+    <!--------------------------- Header Banner -------------------------------------------
     <header class="padded grid text-center tall-90 header">
       <div class="header-nav col-12 grid"> 
           <div class="col-4" >
-            <a href="/index.html" class="logo featured-text text-left margin-t lowercase"> 
+            <a href="/index.html" class="logo featured-text text-left lowercase"> 
                 <h2> Isla </h2> 
             </a>
        </div>
-    
 
-    <nav class="col-8_xs-12 right "> 
-      <a href="/index.html" >  Home </a>
-      <a href="/about.html" > About </a>
-      <a href="/shop.html" > Shop </a>
-      <a href="/sustainability.html"> Sustainability </a>
-      <a href="/contact.html" > Contact </a>
-   </nav>
-</div>
+  
+       <nav class="col-8_xs-12 mob-hide right"> 
+        <a href="/index.html" >  Home </a>
+        <a href="/about.html" > About </a>
+        <a href="/shop.html" > Shop </a>
+        <a href="/sustainability.html"> Sustainability </a>
+        <a href="/contact.html" > Contact </a>
+     </nav>    
+     
+     <div class="col-8right"> <a class="hamburger-button mob-show right">  &#9776; </a> </div>
+
 
     <div class="col-12-middle"> 
         <h3 class="font-weight-light editable">
@@ -84,30 +96,130 @@
 </header>
 
 
+<div class="mobile-menu"> 
+  <nav class="col-8_xs-12 right "> 
+    <a href="/index.html" >  Home </a>
+    <a href="/about.html" > About </a>
+    <a href="/shop.html" > Shop </a>
+    <a href="/sustainability.html"> Sustainability </a>
+    <a href="/contact.html" > Contact </a>
+ </nav>
+</div>
+</div>
+
+-->
+
+
+
+<header class="grid-center tall-90 header text-center"> 
+  <div class="col-4_sm-12"> 
+    <a href="/index.html" class="featured-text lowercase text-left "> 
+      <h2> Isla </h2> 
+  </a>
+  </div>
+
+ 
+  <nav class="col-8 mob-hide text-right margin-t">  
+    <a href="/index.html" >  Home </a>
+    <a href="/about.html" > About </a>
+    <a href="/blog.html" > Blog </a>
+    <a href="/shop.html" > Shop </a>
+    <a href="/sustainability.html"> Sustainability </a>
+    <a href="/contact.html" > Contact </a>
+  </nav> 
+</div>
+
+  <div>
+    <a class="hamburger-button mob-show right"> &#9776; </a>
+  </div>
+ 
+  <div class="col-12-middle"> 
+    <h3 class="font-weight-light">
+        <span class="x-small-text white-text ">  Welcome to </span> <span class="italic lowercase"> <br> ISLA <br> </span> </h3>
+</div>
+
+<!-- <div class="mobile-menu">
+  <nav> 
+  <a href="/index.html" >  Home </a>
+    <a href="/about.html" > About </a>
+    <a href="/shop.html" > Shop </a>
+    <a href="/sustainability.html"> Sustainability </a>
+    <a href="/contact.html" > Contact </a>
+  </nav>
+</div> -->
+</header>
+
+
+
 
 <!------------------------------ Gallery / about Section ------------------------------------->
 <section class="grid">
-     <div class="padded col-6">
+     <div class="padded col-6_sm-12-middle">
           <h2 class="editable font-weight-light">
             <span class="x-small-text">  the </span> <span class="featured-text"">   STORY </span> </h2>
-          <p class="editable">
+          <p>
               Lorem ipsum dolor sit amet, consectetur elit. Donec accumsan interdum leo in interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi nisi harum vitae atque laborum accusantium esse nostrum nulla, veritatis incidunt ex quod consequuntur magnam maxime cum consequatur quis sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam, libero molestiae esse quo error ipsa itaque. Illo sit nostrum quod doloremque id eos dicta, quo, esse obcaecati odit corrupti.
           </p> 
           <a href="#" class="featured-text small-text-2"> let's get Isla </a> 
 </div>
 
-<div class="bg-image bg-palmtree col-6 tall-70"> </div>
+<div class="bg-image bg-palmtree col-6_sm-12-middle tall-70"> </div>
 
-<div class="bg-image bg-sand col-6 tall-70"> </div>
+<div class="bg-image bg-sand col-6_sm-12-middle tall-70 mob-hide"> </div>
+
 
 
     <!--------------- background image  --------------->
-<div class="padded-col-6 padded">
+<div class="padded col-6_sm-12-middle text-left">
     <h2 class="editable font-weight-light"> <span class="x-small-text"> the </span> <span class="featured-text"> BLOG </span>  </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec egestas odio, eget molestie massa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores quisquam at atque architecto? Corporis optio, molestias nobis voluptas nihil ea, sunt distinctio delectus perspiciatis atque vitae quidem ratione ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae in repellat totam quia cupiditate esse similique! Sit maxime incidunt deserunt dolore doloribus, sequi dolorem, debitis accusantium minus quaerat optio.  </p>
     <a href="#" class="featured-text small-text-2" > go to </a>
 </div>
+
+
 </section>
+
+
+
+<section class="padded centered">
+ 
+  <p class="margin-bottom text-center italic green-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <div class="grid padded-1">
+
+    <div class="col-4_sm-12 padded-05">
+      <a href="#" class="clickable-box bg-image" style="background-image:url('/images/wowsea.jpg')">
+        <div class="overlay padded light-text">
+          <h3 class="italic lowercase medium-text"> portfolio </h3>
+          
+        </div>
+      </a>
+    </div>
+
+    <div class="col-4_sm-12 padded-05">
+      <a href="#" class="clickable-box bg-image" style="background-image:url('/images/wowwave.jpg')">
+        <div class="overlay padded light-text">
+          <h3 class="italic lowercase medium-text"> content creation </h3>
+        
+        </div>
+      </a>
+    </div>
+
+    <div class="col-4_sm-12 padded-05">
+      <a href="#" class="clickable-box bg-image" style="background-image:url('/images/ibisco.jpg')">
+        <div class="overlay padded light-text">
+          <h3 class="italic lowercase medium-text"> earth care :) </h3>
+  
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+          
+
+
 
 <!------------------------------- shop banner -------------------------------------->
 <section class="padded text-center bg-blue tall-70 grid margin-b">
@@ -121,7 +233,7 @@
 
 <!-------------------------------  gallery grid ------------------------------------------->
 
-<section class="padded grid bg-dark color slider">
+<section class="padded grid slider mob-hide">
       <img src="https://source.unsplash.com/9u-TGFaFPwI" class="padded-sm col-2">
       <img src="https://source.unsplash.com/obMdrL5pFWI" class="padded-sm col-2">
       <img src="https://source.unsplash.com/guNIjIuUcgY" class="padded-sm col-2">
@@ -162,21 +274,22 @@
 <footer class="grid margin-t-b">
     <!-- column -->
     <div class="col-5_sm-12 padded">
-      <h2 class="logo featured-text"> isla </h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h2 class="featured-text"> isla </h2>
+      <p > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     </div>
     <div class="col-1 sm-hidden"></div>
    
     <!-- column -->
     <div class="col-6_sm-12-middle padded right">
-      <nav class="inline">
+      <nav class="inline mob-hide">
         <a href="/index.html"> Home </a>|
         <a href="/about.html"> About </a>|
         <a href="/shop.html"> Shop </a>|
         <a href="/sustainability.html"> Sustainability </a>|
         <a href="/contact.html"> Contact </a>
       </nav>
-      <nav class="inline socials">
+
+      <nav class="inline socials mob-show text-center">
         <a href="#">
           <i class="fab fa-facebook-square"> </i>
         </a>

@@ -1,3 +1,11 @@
+$('.hamburger-button').click(function(){
+    $('.mobile-menu').fadeToggle(100);
+    $(this).toggleClass('active');
+  });
+
+
+
+
 jQuery(document).ready(function($) {
     $('.image img').click(function(event) {
         // detect data-id for later
@@ -15,4 +23,4 @@ jQuery(document).ready(function($) {
 });
 
 
- 
+<script sec="/main.js"></script>

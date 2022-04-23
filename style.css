@@ -88,7 +88,9 @@ a:hover {
  */
 
 
-    
+
+
+
 /* style text */
 
 
@@ -119,7 +121,16 @@ a:hover {
   font-weight: light;
   }
 
-  
+.featured-text-3 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.6em;
+  text-transform: none;
+  color: #222;
+}
 
 .white-text { color: white; }
 
@@ -155,14 +166,14 @@ a:hover {
     color: rgb(120,120,125);
  }
  
- .quote-icon { 
+.quote-icon { 
     font-size: 6rem;
     display: inline-block;
     line-height: 1;
     color: rgb(120,120,125); 
   }
  
-  .color {
+.color {
      background-color: #ffd791;
      margin-bottom: 2.5%;
   }
@@ -198,11 +209,46 @@ a:hover {
  .margin-top { margin-top: 8%;}
  .margin-t { margin-top: 2%;}
  .margin-l { margin-left: 4%;}
+ .margin-r { margin-right: 2%; }
 
-.padding { padding-bottom: 6% ;}
+ .padding { padding-bottom: 6% ;}
+
+
+
 
  /* Header & Footer Styles */
+
+
+header {
+  padding: 1rem;
+  border-bottom: 1px solid rgb(240,240,240);
+}
+
+header [class*=col] {
+  padding: 0;
+}
+
+  
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
  
+}
+
+.absolute { 
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+
  
  header h3 {
     font-size: 5.5rem;
@@ -252,10 +298,7 @@ background-position: 50% 10%;
   background-position: 50% 10%;
  }
 
-.bg-image {
-  background-size: cover;
-  min-height: 25rem;
-}
+
 
 .bg-wave  {
   background-image: url('/images/wave.jpg');
@@ -370,6 +413,49 @@ min-height: 80vh;
 
 
 
+
+.bg-image {
+  background-color: rgb(90,90,90);
+  background-size: cover;
+  background-position: center;
+}
+/* clickable boxes */
+
+.clickable-box {
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
+  transition: 0.2s all;
+  display: block;
+}
+
+.clickable-box .overlay {
+  min-height: 12rem;
+  padding: 3rem 1rem;
+  background-color: rgba(0,0,10,0.4);
+  color: white;
+}
+
+.clickable-box p {
+  margin-bottom: 0;
+}
+
+.clickable-box:hover {
+  background-color: rgba(0,0,10,0.6);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+  margin-top:-2px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .tall-10  {  min-height: 10vh;  }
 .tall-15  {  min-height: 15vh;  }
 .tall-18  {  min-height: 18vh;  }
@@ -396,50 +482,11 @@ min-height: 80vh;
 */
 
 
- /* hamburger menu 
- .dropbtn {
-  background-color: #faf8f8;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-}
-
-.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn { background-color: #c8c2ae; }
 
 
-*/ 
 
-/* 
+ /* hamburger menu */
+
 .hamburger-button {
   cursor: pointer;
   padding: 0 0.5rem;
@@ -447,8 +494,8 @@ min-height: 80vh;
   font-weight: 200;
   font-size: 2.5rem;
   line-height: 0.8;
-  margin-top: -0.7rem;
-  position: fixed;
+  margin-top: 0.2rem;
+  position: absolute;
   right: 1rem;
   top: 2.5rem;
   z-index: 2;
@@ -478,7 +525,74 @@ min-height: 80vh;
   font-weight: normal;
   font-size: 1.3rem;
 }
-*/
+
+/* Default Responsive Styles (Desktop and below) */
+
+.mob-show {
+  display: none;
+}
+
+
+/* ------- SM Media Query (48em / 768px) --------------- */ 
+@media(max-width:48em) {
+  .mob-hide { display: none; }
+  .mob-show { display: block; }
+}
+
+
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
+
+
+.show-xs, 
+.show-sm,
+.show-md {
+	display: none;
+}
+
+/* ------- MD Media Query (64em / 1024px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 64em) {
+  .show-md { display: block; }
+  .hide-md { display: none;  }
+}
+
+
+
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
+
+	 
+  .sm-text-center { text-align: center; }
+  .sm-text-left { text-align: left; }
+  .sm-text-right { text-align: right; }
+
+  .sm-padded { padding: 5%; }
+  .sm-padded-1 { padding: 1rem; }
+  .sm-padded-05 { padding: 0.5rem; }
+
+  .sm-padded-t-0 { padding-top: 0; }
+  .sm-padded-b-0 { padding-bottom: 0; }
+  .sm-padded-l-0 { padding-left: 0; }
+  .sm-padded-r-0 { padding-right: 0; }
+  
+  .sm-margin-t-0 { margin-top: 0; }
+  .sm-margin-b-0 { margin-bottom: 0; }
+  .sm-margin-l-0 { margin-left: 0; }
+  .sm-margin-r-0 { margin-right: 0; }
+}
+
+/* ------- XS Media Query (36em / 576px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 36em) {
+  .show-xs { display: block; }
+  .hide-xs { display: none;  }
+}
+
+
+
+
+
 
 /* banner sustainability  */ 
 .banner,
@@ -577,61 +691,6 @@ form textarea:focus {
   text-transform: uppercase;
  }
  
-
-
-
-/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
-
-
-.show-xs, 
-.show-sm,
-.show-md {
-	display: none;
-}
-
-/* ------- MD Media Query (64em / 1024px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
-
-@media (max-width: 64em) {
-  .show-md { display: block; }
-  .hide-md { display: none;  }
-}
-
-/* ------- SM Media Query (48em / 768px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
-
-@media (max-width: 48em) {
-  .show-sm { display: block; }
-  .hide-sm { display: none;  }
-	 
-  .sm-text-center { text-align: center; }
-  .sm-text-left { text-align: left; }
-  .sm-text-right { text-align: right; }
-
-  .sm-padded { padding: 5%; }
-  .sm-padded-1 { padding: 1rem; }
-  .sm-padded-05 { padding: 0.5rem; }
-
-  .sm-padded-t-0 { padding-top: 0; }
-  .sm-padded-b-0 { padding-bottom: 0; }
-  .sm-padded-l-0 { padding-left: 0; }
-  .sm-padded-r-0 { padding-right: 0; }
-  
-  .sm-margin-t-0 { margin-top: 0; }
-  .sm-margin-b-0 { margin-bottom: 0; }
-  .sm-margin-l-0 { margin-left: 0; }
-  .sm-margin-r-0 { margin-right: 0; }
-}
-
-/* ------- XS Media Query (36em / 576px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
-
-@media (max-width: 36em) {
-  .show-xs { display: block; }
-  .hide-xs { display: none;  }
-}
-
-
 
 
 
