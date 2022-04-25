@@ -95,7 +95,7 @@ a:hover {
 
 
 .featured-text { 
-    color: #fbba72;  
+    color: burlywood;  
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
 
@@ -199,7 +199,11 @@ a:hover {
  .font-size-l { font-size: large;}
  .font-size-xl { font-size: x-large;}
  
- .text-left-m   { text-align: left; margin-left: 5%; }
+ .text-left-m   { 
+    text-align: left; 
+    margin-left: 5%; 
+    margin-bottom: 1%; 
+}
  
  .text-left { text-align: left;}
  .text-center { text-align: center; }
@@ -360,7 +364,7 @@ min-height: 80vh;
   }   
 
 .header-blog  {
-  background-image: url('/images/wowisla.jpg');
+  background-image: url('/images/texture.jpg');
   background-size: cover;
   background-position: 50% 30%;
   min-height: 80vh;
@@ -446,7 +450,7 @@ min-height: 80vh;
 }
 
 
-
+           /* popup image gallery */
 
 .bg-image-2 {
   background-color: rgb(235,235,235);
