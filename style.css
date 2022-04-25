@@ -199,7 +199,8 @@ a:hover {
  .font-size-l { font-size: large;}
  .font-size-xl { font-size: x-large;}
  
- .text-left   { text-align: left; }
+ .text-left-m   { text-align: left; margin-left: 5%; }
+ .text-left { text-align: left;}
  .text-center { text-align: center; }
  .text-right  { text-align: right; }
  
