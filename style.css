@@ -98,6 +98,7 @@ a:hover {
     color: #fbba72;  
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
+
   }
 
 .featured-text-3 { 
@@ -218,7 +219,7 @@ a:hover {
 
 
  .padding { padding-bottom: 6% ;}
-
+ .padded-r { padding-right: 5%;  }
 
 
 
