@@ -513,12 +513,6 @@ min-height: 80vh;
 
 
 
-
-
-
-
-
-
 .tall-10  {  min-height: 10vh;  }
 .tall-15  {  min-height: 15vh;  }
 .tall-18  {  min-height: 18vh;  }
@@ -588,6 +582,10 @@ min-height: 80vh;
   font-weight: normal;
   font-size: 1.3rem;
 }
+
+
+
+
 
 /* Default Responsive Styles (Desktop and below) */
 
@@ -674,12 +672,14 @@ min-height: 80vh;
 
 
 
+
+
  /* contact page style */ 
 
 form input,
 form textarea {
   width: 100%;
-  margin; 0.5rem 0;
+  margin: 0.5rem 0;
   padding: 0.5rem;
   border: 2px solid rgb(220,220,220);
   outline: none;
