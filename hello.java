@@ -23,12 +23,6 @@ jQuery(document).ready(function($) {
 });
 
 
-<script sec="/main.js"></script>
-
-
-
-
-
 
 $(document).ready(function() {
 
