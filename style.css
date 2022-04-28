@@ -276,11 +276,6 @@ header [class*=col] {
   padding: 0.1rem;
   font-size: 0.7rem;
 }
-
- .inline a {
-   display: inline;
-   padding: 0.5rem;
- }
  
  
  
@@ -583,6 +578,16 @@ min-height: 80vh;
   font-size: 0.8rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+.inline, .mobile-menu .inline {
+  display: inline;
+  padding: 5vh 5%;
+  
+}
+
+.social-links a { display: inline;}
+
 
 
 
