@@ -222,7 +222,7 @@ a:hover {
  .margin-l { margin-left: 2%;}
  .margin-r { margin-right: 2%; }
  .margin-right { margin-right: -0.8%; }
-
+ .margin-top-7 { margin-top: 7%;}
 
  .padding { padding-bottom: 6% ;}
  .padded-r { padding-right: 5%;  }
@@ -650,7 +650,7 @@ min-height: 80vh;
   .sm-margin-l-0 { margin-left: 0; }
   .sm-margin-r-0 { margin-right: 0; }
 
- 
+
 
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
