@@ -540,7 +540,7 @@ min-height: 80vh;
  /* hamburger menu */
 
 .hamburger-button::after {
-  content: "&#9776;";
+  content: "☰";
   cursor: pointer;
   padding: 0 0.5rem;
   display: inline-block;
@@ -584,7 +584,7 @@ min-height: 80vh;
 
 .inline, .mobile-menu .inline {
   display: inline;
-  padding: 5vh 5%;
+  margin-top: 3%;
   
 }
 
