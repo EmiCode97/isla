@@ -539,7 +539,8 @@ min-height: 80vh;
 
  /* hamburger menu */
 
-.hamburger-button {
+.hamburger-button::after {
+  content: "&#9776;";
   cursor: pointer;
   padding: 0 0.5rem;
   display: inline-block;
@@ -553,7 +554,8 @@ min-height: 80vh;
   z-index: 2;
 }
 
-.hamburger-button.active {
+.hamburger-button.active::after {
+  content: "x";
   color: white;
 }
 
