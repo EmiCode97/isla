@@ -277,11 +277,8 @@ header [class*=col] {
   font-size: 0.7rem;
 }
 
-
-
-
  .inline a {
-   display: inline-block;
+   display: inline;
    padding: 0.5rem;
  }
  
@@ -334,7 +331,10 @@ background-position: 50% 10%;
 }
 
 
-
+.bg-beach { 
+  background-image: url('/images/wowbeach.jpg');
+  background-position: 50% 80%;
+}
 
 img {
   max-width: 22%;
@@ -725,7 +725,6 @@ form button {
   text-align: center;
   
 }
-
 
 
 
