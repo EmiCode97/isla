@@ -612,6 +612,13 @@ min-height: 80vh;
   display: none;
 }
 
+/* ------- XS Media Query (36em / 576px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 36em) {
+  .show-xs { display: block; }
+  .hide-xs { display: none;  }
+}
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
 @media(max-width:48em) {
@@ -657,13 +664,7 @@ min-height: 80vh;
 
 
 
-/* ------- XS Media Query (36em / 576px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
 
-@media (max-width: 36em) {
-  .show-xs { display: block; }
-  .hide-xs { display: none;  }
-}
 
 
 
