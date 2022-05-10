@@ -596,6 +596,15 @@ min-height: 80vh;
 
 
 
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
+
+
+.show-xs, 
+.show-sm,
+.show-md {
+	display: none;
+}
+
 
 /* Default Responsive Styles (Desktop and below) */
 
@@ -611,14 +620,7 @@ min-height: 80vh;
 }
 
 
-/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 
-
-.show-xs, 
-.show-sm,
-.show-md {
-	display: none;
-}
 
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
