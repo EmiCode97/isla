@@ -209,9 +209,9 @@ a:hover {
  .text-center { text-align: center; }
  .text-right  { text-align: right; }
  
- .right    {  text-align: right;    }
- .center  {  text-align: center;    }
-
+.right    {  text-align: right;    }
+.center  {  text-align: center;    }
+.left {  text-align: left;    }
 
  .margin-tb { margin-top: 5%; margin-bottom: 5%; }
  .margin-b { margin-bottom: 2%; }
