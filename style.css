@@ -761,6 +761,52 @@ form textarea:focus {
 
 
 
+
+/* effect text stands out + image opacity
+.banner {
+  background-image: url('https://source.unsplash.com/random?sig=1');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  padding: 5%;
+}
+
+.banner h2 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+	bottom: 0;
+	right: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bg-overlay > * {
+  position: relative;
+}
+
+
+.bg-overlay-teal::before {
+  background-color: rgba(0, 128, 128,0.5);
+}
+
+*/
+
+
+
+
+
  /* copyright */ 
  .subtle { 
   opacity: 0.8;
@@ -770,9 +816,6 @@ form textarea:focus {
   
  }
  
-
-
-
 
 
 
