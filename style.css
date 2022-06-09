@@ -264,15 +264,15 @@ header [class*=col] {
 }
 
  
- header h3 {
+header h3 {
     font-size: 5.5rem;
     line-height: 1;
  }
  
- footer a { border: none; }
+footer a { border: none; }
 
 
- footer nav a {
+footer nav a {
   padding: 0.1rem;
   font-size: 0.7rem;
 }
@@ -281,19 +281,19 @@ header [class*=col] {
  
  /* Background-images  */
  
- .bg-palmtree   {
+.bg-palmtree   {
      background-image: url('/images/palmtree.jpg');  
      background-position: 50% 80% ;
      margin-top: 3%;
    }  
 
- .bg-sand { 
+.bg-sand { 
     background-image: url('/images/sand.jpg'); 
     background-position: 50% 40%;
     margin-bottom: 3%; 
  }
  
- .bg-beach {
+.bg-beach {
     background-image: url('/images/wowisla.jpg');
     background-position: 50% 10%;
  }
@@ -342,7 +342,6 @@ img {
   overflow-x: auto;
   white-space: nowrap;  
 }
-
 
 .header {
   background-image: url('/images/shadow.jpg');
@@ -508,7 +507,7 @@ min-height: 80vh;
 
 
 
-
+/* images min-height */
 
 .tall-10  {  min-height: 10vh;  }
 .tall-15  {  min-height: 15vh;  }
@@ -665,12 +664,6 @@ min-height: 80vh;
 
 
 
-
-
-
-
-
-
 /* banner sustainability  */ 
 .banner,
 .banner-with-header {
@@ -761,6 +754,14 @@ form textarea:focus {
 
 
 
+ /* copyright */ 
+ .subtle { 
+  opacity: 0.8;
+  font-size: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  
+ }
 
 /* effect text stands out + image opacity
 .banner {
@@ -807,14 +808,6 @@ form textarea:focus {
 
 
 
- /* copyright */ 
- .subtle { 
-  opacity: 0.8;
-  font-size: 0.4rem;
-  text-align: center;
-  text-transform: uppercase;
-  
- }
  
 
 
